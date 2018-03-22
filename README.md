@@ -1,16 +1,18 @@
 # vscode.wasm.template.windows
-Template project for Wasm projects in VSCode for Windows with working bash shell.
+This repository contains a _template project for Wasm projects in VSCode for Windows with working bash shell_. 
+I created it because 
 
-Changelog:
-180322 - Just added the bash part as it is in the original file for safe keeping.
+## Changelog 
+180322 - Just added the bash part as it is in the original file for safe keeping. 
 
-<project>/.vscode/settings.json
+## Bash Shell 
+_<project>/.vscode/settings.json_ 
 ```json
   "terminal.integrated.shell.windows": "C:\\MinaProgram\\msys64\\usr\\bin\\bash.exe",
   "terminal.integrated.shellArgs.windows": ["-c","'./.vscode/bash_path.sh'"]
 ```
 
-<project>/.vscode/bash_path.sh
+_<project>/.vscode/bash_path.sh_
 ```bash
   #!/bin/bash
   # Clear screen
